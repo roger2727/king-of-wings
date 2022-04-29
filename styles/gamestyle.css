@@ -23,7 +23,7 @@
 }
 .row {
   display: flex;
-  background-color: #cddeed;
+  background-color: white;
   width: 90%;
   height: 50%;
   border-radius: 20px;
@@ -31,19 +31,24 @@
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.309);
 }
 .btn-start {
-  width: 100px;
+  width: 30vh;
   height: 50px;
   font-size: 15px;
   border-radius: 20px;
   background-color: #e59a05;
-  border: 1px solid black;
+  border: none;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.309);
+  color: #fff;
 }
 .next-player {
-  width: 100px;
+  height: 50px;
+  width: 30vh;
   font-size: 15px;
   border-radius: 20px;
-  background-color: white;
-  border: 1px solid #e59a05;
+  background-color: #56698f;
+  border: none;
+  color: white;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.309);
 }
 .rando {
   display: flex;
@@ -54,7 +59,7 @@
 #tb {
   text-align: center;
   border: none;
-  background-color: #cddeed;
+  background-color: white;
   font-size: 50px;
   width: 70px;
 }
@@ -62,10 +67,12 @@
   display: flex;
   align-items: center;
   gap: 1em;
+  flex-direction: column;
 }
 #quoteshere {
   font-size: 20px;
 }
 .player-number {
   font-size: 50px;
+  color: #56698f;
 }
