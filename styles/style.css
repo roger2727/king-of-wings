@@ -6,8 +6,9 @@
 header {
   display: flex;
   justify-content: center;
-  height: 50vh;
+  height: 40vh;
   background-color: #e59a05;
+  width:100%;
 }
 .label-box {
   display: flex;
@@ -62,6 +63,7 @@ header {
 }
 .icon {
   width: 20px;
+  padding-right:5px;
 }
 .form-heading {
   display: flex;
