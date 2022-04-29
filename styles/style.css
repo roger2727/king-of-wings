@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  background-color: #e59a05;
+}
+.label-box {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 300px;
+  gap: 0.5em;
+}
+.btn-box {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 50px;
+
+  background-color: white;
+  border-radius: 5%;
+}
+.btn {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 30px;
+  border-radius: 50px;
+  background-color: #e59a05;
+  border: none;
+  box-shadow: 10px 5px 5px rgb(203, 203, 203);
+  color: white;
+}
+#players {
+  height: 30px;
+  border-radius: 40px;
+  border: solid;
+  font-size: 20px;
+}
+#chilli-sauces {
+  height: 30px;
+  border-radius: 40px;
+  border: solid;
+  font-size: 20px;
+  padding-left: 10px;
+}
+#players {
+  padding-left: 10px;
+}
+.label-heading {
+  font-size: 20px;
+}
+.icon {
+  width: 20px;
+}
+.form-heading {
+  display: flex;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(128, 128, 128, 0.389);
+}
+/* **************************************************************** */

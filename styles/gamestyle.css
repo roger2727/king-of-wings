@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito", sans-serif;
+}
+.pic {
+  display: flex;
+  width: 50vh;
+}
+.container {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.row {
+  display: flex;
+  background-color: #cddeed;
+  width: 80%;
+  height: 50%;
+  border-radius: 20px;
+  justify-content: center;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.309);
+}
+.btn-start {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #e59a05;
+  border: 1px solid black;
+}
+.next-player {
+  width: 100px;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #e59a05;
+}
+.rando {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+#tb {
+  text-align: center;
+  border: none;
+  background-color: #cddeed;
+  font-size: 50px;
+  width: 100px;
+}
+.form-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+#quoteshere {
+  font-size: 20px;
+}
+.player-number {
+  font-size: 50px;
+}
