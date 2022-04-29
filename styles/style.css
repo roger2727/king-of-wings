@@ -8,7 +8,7 @@ header {
   justify-content: center;
   height: 40vh;
   background-color: #e59a05;
-  width:100%;
+  width: 100%;
 }
 .label-box {
   display: flex;
@@ -37,7 +37,7 @@ header {
   width: 100%;
   font-size: 30px;
   border-radius: 50px;
-  background-color: #e59a05;
+  background-color: #56698f;
   border: none;
   box-shadow: 10px 5px 5px rgb(203, 203, 203);
   color: white;
@@ -63,7 +63,7 @@ header {
 }
 .icon {
   width: 20px;
-  padding-right:5px;
+  padding-right: 5px;
 }
 .form-heading {
   display: flex;
@@ -72,5 +72,9 @@ header {
   text-align: center;
   font-size: 15px;
   color: rgba(128, 128, 128, 0.389);
+}
+.footer {
+  padding-top: 20px;
+  text-align: center;
 }
 /* **************************************************************** */
