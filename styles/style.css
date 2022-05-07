@@ -20,17 +20,18 @@ header {
 .btn-box {
   display: flex;
   justify-content: center;
-  height: 80px;
+  height: 125px;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
-
   margin: 50px;
-
   background-color: white;
   border-radius: 5%;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
 }
 .btn {
   margin-top: 20px;
@@ -77,4 +78,3 @@ header {
   padding-top: 20px;
   text-align: center;
 }
-/* **************************************************************** */
