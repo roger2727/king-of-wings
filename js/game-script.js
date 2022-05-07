@@ -1,8 +1,9 @@
 function Random() {
-  var rnd = Math.floor(Math.random() * 11);
+  var rnd = Math.trunc(Math.random() * 10) + 1;
   document.getElementById("tb").value = rnd;
 }
 var Loadquotes = function () {
+  function printScore() {}
   var quotes = new Array(
     "Down 1  shot",
     "Everyone downs 1 shot",
@@ -24,3 +25,20 @@ var Loadquotes = function () {
     document.getElementById("quoteshere").innerText = newquotes;
   }
 };
+const btnNew = document.querySelector(".btn");
+const count = document.getElementById("score-tracker");
+
+function randomScore() {
+  var points = Math.trunc(Math.random() * 5) + 1;
+  document.getElementById("score-tracker").value = points;
+  count.innerText = document.getElementById("score-tracker").value;
+}
+var clicks = 20;
+
+function onClick() {
+  clicks -= 1;
+  document.getElementById("clicks").innerHTML = clicks;
+  if (clicks === 0) {
+    location.reload();
+  }
+}
