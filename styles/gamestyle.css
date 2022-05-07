@@ -30,26 +30,18 @@
   justify-content: center;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.309);
 }
+
 .btn-start {
   width: 30vh;
-  height: 50px;
-  font-size: 15px;
+  height: 110px;
+  font-size: 30px;
   border-radius: 20px;
   background-color: #e59a05;
   border: none;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.309);
+  box-shadow: 10px 5px 5px rgb(0 0 0 / 31%);
   color: #fff;
 }
-.next-player {
-  height: 50px;
-  width: 30vh;
-  font-size: 15px;
-  border-radius: 20px;
-  background-color: #56698f;
-  border: none;
-  color: white;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.309);
-}
+
 .rando {
   display: flex;
   flex-direction: column;
@@ -66,7 +58,7 @@
 .form-horizontal {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 2em;
   flex-direction: column;
 }
 #quoteshere {
@@ -76,3 +68,24 @@
   font-size: 50px;
   color: #56698f;
 }
+.players {
+  display: flex;
+  font-size: 50px;
+  color: #56698f;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2em;
+  height: 50px;
+  margin-top: 20px;
+  width: 250px;
+  font-size: 15px;
+
+  background-color: #56698f;
+  border: none;
+  box-shadow: 10px 5px 5px rgb(203, 203, 203);
+  color: white;
+}
+
