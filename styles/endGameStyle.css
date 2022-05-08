@@ -183,14 +183,14 @@ body {
   }
 }
 .btn-box {
-  margin-top: 400px;
+  margin-top: 350px;
 }
 .btn {
   font-family: "Nunito", sans-serif;
   padding: 20px;
-  width: 300px;
+  width: 100px;
   height: 500px;
-  font-size: 70px;
+  font-size: 30px;
   border-radius: 50px;
   background-color: #56698f;
   border: none;
