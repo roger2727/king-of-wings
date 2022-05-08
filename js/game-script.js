@@ -39,6 +39,6 @@ function onClick() {
   clicks -= 1;
   document.getElementById("clicks").innerHTML = clicks;
   if (clicks === 0) {
-    location.reload();
+     window.location.href = "endGame.html";
   }
 }
