@@ -7,16 +7,17 @@ var Loadquotes = function () {
   var quotes = new Array(
     "Down 1  shot",
     "Everyone downs 1 shot",
-    "2 x wings",
+    "Eat 2 x wings",
     "Choose a friend to do a shot",
-    "Take a drink",
-    "Down your drink",
+    "Have a drink",
+    "Finish your drink",
     "Skip wings",
-    "Take a drink",
-    "Take a drink",
-    "Take a drink",
-    "Take a drink",
-    "Take a drink"
+    "Everyone take a drink",
+    "Have a drink",
+    "Have a drink",
+    "Have a drink",
+    "Have a drink",
+    "Choose a friend to take your wings"
   );
   var i;
 
@@ -26,19 +27,13 @@ var Loadquotes = function () {
   }
 };
 const btnNew = document.querySelector(".btn");
-const count = document.getElementById("score-tracker");
 
-function randomScore() {
-  var points = Math.trunc(Math.random() * 5) + 1;
-  document.getElementById("score-tracker").value = points;
-  count.innerText = document.getElementById("score-tracker").value;
-}
 var clicks = 20;
 
 function onClick() {
   clicks -= 1;
   document.getElementById("clicks").innerHTML = clicks;
   if (clicks === 0) {
-     window.location.href = "endGame.html";
+    window.location.href = "endGame.html";
   }
 }
