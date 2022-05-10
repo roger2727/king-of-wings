@@ -41,7 +41,14 @@
   box-shadow: 10px 5px 5px rgb(0 0 0 / 31%);
   color: #fff;
 }
-
+.btn-start:active {
+  background-color: #ecb850;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btn-start :hover {
+  background-color: #ecb850;
+}
 .rando {
   display: flex;
   flex-direction: column;
@@ -64,15 +71,7 @@
 #quoteshere {
   font-size: 20px;
 }
-.player-number {
-  font-size: 50px;
-  color: #56698f;
-}
-.players {
-  display: flex;
-  font-size: 50px;
-  color: #56698f;
-}
+
 .text {
   display: flex;
   align-items: center;
@@ -88,4 +87,3 @@
   box-shadow: 10px 5px 5px rgb(203, 203, 203);
   color: white;
 }
-
